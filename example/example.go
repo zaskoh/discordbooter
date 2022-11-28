@@ -47,7 +47,7 @@ func main() {
 
 	log.Printf("bot started and running in background now")
 
-	discordbooter.SendMessage(*channel, "discordbooter successfull started new session and is waiting for you!")
+	discordbooter.SendMessage(*channel, "discordbooter successful started new session and is waiting for you!")
 
 	<-cancelChan
 	wg.Wait()

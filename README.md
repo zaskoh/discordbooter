@@ -19,6 +19,7 @@
         <img alt="GitHub Release" src="https://img.shields.io/github/v/release/zaskoh/discordbooter?style=flat-square&include_prereleases&sort=semver">
     </a>
 </p>
+
 **discordbooter** is a package that extends [discordgo](https://github.com/bwmarrin/discordgo) to spin up a discord bot to log or consume messages from / to a discord channel.
 
 ## Getting started
