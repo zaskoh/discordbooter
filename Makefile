@@ -1,0 +1,9 @@
+.PHONY: lint test
+
+lint:
+	gofmt -d -s ./
+	go vet ./...
+	staticcheck ./...
+
+test:
+	go test ./...
